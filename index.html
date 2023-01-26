@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Compiled and minified CSS -->
+    <script src="https://kit.fontawesome.com/35bab1e1be.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
@@ -27,19 +24,29 @@
             <p class="titulo-tela">Seja bem vindo!</p>
             <div class="input-field col s12">
                 <input id="email" type="email" class="validate">
-                <label  class="indigo-text" for="email">Email</label>
+                <label  class="red-text" for="email">Email</label>
                 <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
             </div>
             <div class="input-field col s12">
                 <input id="password" type="password" class="validate">
-                <label class="indigo-text" for="password">Password</label>
+                <label class="red-text" for="password">Password</label>
             </div>
             <div class="botoes">
-                <button class="btn waves-effect waves-light indigo darken-4" type="submit" name="action">login
+                <button class="btn waves-effect waves-light red lighten-3" type="submit" name="action">login
                     <i class="material-icons right">arrow_forward</i>
                 </button>
             </div>
-            <span>Ou crie uma conta</span>
+            <div class="logins">
+                <div class="entrar">   
+                    <p class="barra"></p>
+                    <span class="entrar-com">ou tente entrar com</span>
+                    <p class="barra"></p>
+                </div>
+                <a class="waves-effect waves-light btn-small red lighten-3"><i class="fa-brands fa-google"></i></a>
+                <a class="waves-effect waves-light btn-small red lighten-3"><i class="fa-brands fa-facebook"></i></a>
+                <a class="waves-effect waves-light btn-small red lighten-3"><i class="fa-brands fa-apple"></i></a>
+            </div>
+            <a class="criar-conta" href="#">Criar conta</a>
         </div>
     </div>
 </body>
