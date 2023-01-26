@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: grid;
+    font-family: 'Urbanist', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.tela{
+    width: 375px;
+    height: 530px;
+    padding-top: 30px;
+    background-color: #e3f2fd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-tela{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.helper-text{
+    color: brown;
+}
