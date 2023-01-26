@@ -4,10 +4,13 @@ body{
     font-family: 'Urbanist', sans-serif;
     align-items: center;
     justify-content: center;
+    background-image: url(../img/background-mate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .tela{
     width: 375px;
-    height: 530px;
+    height: 650px;
     padding-top: 30px;
     background-color: #ffebee ;
     display: flex;
@@ -15,17 +18,35 @@ body{
     align-items: center;
     border-radius: 10px;
 }
+.card-login input{
+    color: #ef9a9a;
+}
 .titulo-tela{
     font-family: 'Urbanist', sans-serif;
     font-weight: 700;
     font-size: 2rem;
+    color: #ef9a9a;
+}
+.frase{
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    color: #ef9a9a;
 }
 .logins{
-    margin-top: 60px;
+    margin-top: 40px;
     align-items: center;
+    
 }
 .entrar{
     display: flex;
+    margin-bottom: 5px;
+    gap: 10px;
+    
+}
+.opcoes-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 .barra{
