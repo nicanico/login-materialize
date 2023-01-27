@@ -7,6 +7,8 @@ Projeto criado com a finalidade de testar e aprender com o uso do framework Mate
 Foi decidido pelo grupo criação de uma tela de login com a própria temática do framework.
 
 ## Preview
+![preview-materalize](https://user-images.githubusercontent.com/110314344/214977780-b95cfa78-151c-47a5-8677-88dc27caf114.PNG)
+
 
 ## Colaboradores:
 
